@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+        />
+        <title>Local de Treino 007</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Open Sans Light';
+            }
+
+            html,
+            body {
+                height: 100%;
+            }
+
+            #container {
+                width: 100%;
+                max-width: 1000px;
+                padding: 20px 0;
+                background-color: dodgerblue;
+                margin: 0 auto;
+            }
+
+            #box1,
+            #box2,
+            #box3,
+            #box4,
+            #box5,
+            #box6,
+            #box7,
+            #box8 {
+                max-width: 800px;
+                height: 150px;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+                padding: 30px;
+            }
+
+            h2 {
+                text-align: center;
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            button {
+                padding: 8px;
+                background-color: dodgerblue;
+                outline: 0;
+                border: 0;
+                color: white;
+                border-radius: 20px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h2>Don't stop when you're tired, stop when you're done.</h2>
+            <div id="box1" style="background-color: orange"></div>
+            <div id="box2" style="background-color: gray"></div>
+            <div id="box3" style="background-color: mediumseagreen"></div>
+            <div id="box4" style="background-color: purple">
+                <button onclick="el5.innerHTML = getRndInteger(0,1000)">
+                    Clique aqui para gerar um número aleatório!
+                </button>
+                <h2 id="box5"></h2>
+            </div>
+        </div>
+
+        <script src="js/main007.js"></script>
+    </body>
+</html>

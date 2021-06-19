@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+        />
+        <title>Local de Treino 001</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .csgo {
+                text-align: center;
+                background: dodgerblue;
+                color: white;
+            }
+
+            .csgo h3 {
+                font-family: 'Courier New';
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h2 onmouseover="enterMessage()" onmouseout="outMessage()" id="h2">
+                Salve,
+            </h2>
+        </div>
+        <div class="csgo">
+            <h3>Counter-Strike: Global Offensive</h3>
+            <h4>FaZe Clan</h4>
+            <h4>Made in Brazil</h4>
+            <h4>Team Liquid</h4>
+            <h4>FURIA</h4>
+            <h4>GODSENT</h4>
+        </div>
+
+        <p>
+            <button onclick="clickCounter()" type="button">Clique aqui!</button>
+        </p>
+        <div id="result"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.12/push.min.js"></script>
+        <script src="main001.js"></script>
+    </body>
+</html>
