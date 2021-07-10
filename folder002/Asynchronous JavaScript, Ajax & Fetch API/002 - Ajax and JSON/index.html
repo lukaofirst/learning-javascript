@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>001 - XHR Object Methods</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .container .buttons {
+            padding: 10px;
+            border: 0; 
+            outline: 0;
+            color: white;
+            margin: 20px;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .b1 {
+            background-color: dodgerblue;
+        }
+
+        .b2 {
+            background-color: mediumseagreen;
+        }
+
+        .container .output-car-single, .container .output-cars {
+            text-align: justify;
+            padding: 10px 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="buttons b1">Traga os dados de carSingle</button>
+        <button class="buttons b2">Traga os dados de cars</button>
+        <hr>
+        <div class="output-car-single"></div>
+        <hr>
+        <div class="output-cars"></div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

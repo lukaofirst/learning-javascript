@@ -1,0 +1,7 @@
+Esses dados está no arquivo data-text.txt, chamado assincronamente via XMLHTTPRequest <br><br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis rutrum erat at ultricies. Nunc ac ornare nibh, sit amet luctus justo. Sed non erat aliquet nisl aliquet congue vel ac est. Proin rhoncus mi id risus semper, suscipit luctus dui malesuada. Suspendisse eget lectus et metus sollicitudin feugiat quis at nunc. Donec consequat lacinia odio id bibendum. Suspendisse potenti. Duis eu egestas arcu. Integer ornare non elit eget malesuada.
+
+<br><br>
+
+In a urna elit. Sed sem leo, finibus quis est sed, lobortis auctor mi. Fusce eleifend libero ut vulputate mattis. Etiam congue pellentesque hendrerit. Nunc mattis quam ligula, eget finibus massa pharetra et. Vestibulum varius ipsum et arcu feugiat hendrerit. Duis vel orci fermentum, ornare ligula in, sodales diam. Aliquam pretium, diam a porta congue, justo felis accumsan velit, sit amet varius neque justo a odio. Maecenas hendrerit magna sit amet malesuada imperdiet. Fusce vehicula nibh sit amet pulvinar finibus. Etiam porta neque sed mollis efficitur. Maecenas ac mattis urna.

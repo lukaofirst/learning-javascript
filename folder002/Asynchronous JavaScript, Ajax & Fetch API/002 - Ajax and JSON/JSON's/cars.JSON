@@ -1,0 +1,20 @@
+[
+    {
+        "Fabricante": "Volkswagen",
+        "Modelo": "Fox",
+        "Ano": 2018,
+        "Motor": 1.6
+    },   
+    {
+        "Fabricante": "Chevrolet",
+        "Modelo": "Onix",
+        "Ano": 2018,
+        "Motor": 1.4
+    },
+    {
+        "Fabricante": "Hyundai",
+        "Modelo": "HB20",
+        "Ano": 2018,
+        "Motor": 1.0
+    }
+]

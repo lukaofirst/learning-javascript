@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans Light', sans-serif;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            background-color: #ccc;
+        }
+
+        label[for="userId"]{
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            width: 50px;
+            padding: 5px;
+            border: 0;
+            outline: 0;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+        .button {
+            background-color: mediumseagreen;
+            outline: 0;
+            border: 0;
+            padding: 8px;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .output ul {
+            list-style-position: inside;
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Using JSON Placeholder API</h2>
+        <label for="userId">userID</label>
+        <input type="number" min="1" max="100" id="userId">
+        <button class="button">Get Data</button>
+        <hr>
+        <div class="output"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
