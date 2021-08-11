@@ -1,4 +1,4 @@
-/*** DIFERENÇAS ENTRE SLICE - SUBSTRING - SUBSTR, ENTENDENDO AS FLAGS i,g, MÉTODOS DE STRINGS ***/
+/***** Array Methods *****/
 
 // Entendendo a diferença entre slice, substring e substr
 var x = 'Desenvolvedor Front-End'; //String comum

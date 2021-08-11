@@ -1,4 +1,4 @@
-/* MÉTODOS MATEMÁTICOS */
+/***** Math Methods *****/
 
 // Declarando as variáveis
 var el1 = document.getElementById('box1');

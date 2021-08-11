@@ -1,3 +1,5 @@
+/***** Array Methods *****/
+
 /*** USANDO OS MÉTODOS .sort() - .reverse(), ENCONTRANDO O VALOR MÁXIMO E MÍNIMO DE UM ARRAY, ORDENANDO ITENS DO ARRAY ***/
 
 // Declarando as variáveis

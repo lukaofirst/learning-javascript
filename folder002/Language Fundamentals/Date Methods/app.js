@@ -1,4 +1,4 @@
-/*** Métodos de Data ***/
+/***** Date Methods *****/
 
 // Declarando as variáveis
 var el1 = document.getElementById('box1');
