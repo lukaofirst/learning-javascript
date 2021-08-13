@@ -1,4 +1,4 @@
-/*** Manipulando o DOM e Eventos no JS ***/
+/***** Events and DOM Selectors *****/
 
 // DOM Elements
 var ul = document.getElementById('list');
