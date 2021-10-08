@@ -25,4 +25,7 @@ console.log(userName && ''); // userName is truthy, hence second value is return
 
 /**** Dica rápida em PT-BR ****/
 // Com &&, se for true, retorna o segundo operador (ele pula)
+// Com &&, se for false, retorna o primeiro operador
+
 // Com ||, se for true, retorna o primeiro operador (ele permanece)
+// Com ||, se for false, retorna o segundo operador
