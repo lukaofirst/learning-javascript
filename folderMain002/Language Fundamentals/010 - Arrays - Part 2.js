@@ -51,3 +51,40 @@ const sortedNumbers = unSortedNumbers.sort((a, b) => {
 
 console.log(sortedNumbers);
 console.log(sortedNumbers.reverse());
+
+/* --- filter() method --- */
+// Really useful when you need to create a new array with filtered values
+const numbersUntil10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// we need a new array only with pair numbers
+/* const onlyPairNumbers = numbersUntil10.filter(
+    (number, index, originalArray) => {
+        return number % 2 === 0;
+    }
+); */
+
+// shorter way
+const onlyPairNumbers = numbersUntil10.filter((number) => number % 2 === 0);
+
+console.log(onlyPairNumbers);
+
+/* --- reduce() method --- */
+// It will parse an array without change it and then turn into a single element
+const randomNumbers = [43, 50, 129, 923, 198];
+const initialValue = 0;
+
+/* const sum = randomNumbers.reduce(
+    (prevValue, curValue, curIndex, originalArray) => {
+        return prevValue + curValue;
+    },
+    initialValue
+);
+ */
+
+// shorter way
+const sum = randomNumbers.reduce(
+    (prevValue, curValue) => prevValue + curValue,
+    initialValue
+);
+
+console.log(sum);
