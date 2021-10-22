@@ -36,3 +36,10 @@ console.log(person['age']);
 const uniqueId = document.getElementById('uniqueId');
 uniqueId.style['background-color'] = 'dodgerblue';
 uniqueId.style['margin-left'] = '20px';
+
+/* --- Dynamic Property Access and Setting Properties Dynamically */
+const dynamicPropertyAccess = {
+    [uniqueId.textContent]: uniqueId.textContent,
+};
+
+console.log(dynamicPropertyAccess);
