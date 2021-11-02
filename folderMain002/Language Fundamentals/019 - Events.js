@@ -58,3 +58,46 @@ button2.addEventListener('click', listeningEvent);
 setTimeout(() => {
     button2.removeEventListener('click', listeningEvent);
 }, 3000);
+
+/* --- preventDefault() --- */
+// It's used to literally prevent the default behavior on such element,
+// for example, a submit button in a form or even a link that redirects to another page
+const link = document.getElementById('toGoogle');
+
+link.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log(e.target);
+});
+
+/* --- Capturing and Bubbling Events --- */
+// Capturing will look for events from outside to inside in nested elements
+// Bubbling will look for events from inside to outside in nested elements
+
+// For default, the addEventListener method looks for bubbling events,
+// to change that, you have to use 'true' as a third parameter in addEventListener
+// for the parentElement
+
+const someDiv3 = document.getElementById('someDiv3');
+const someButton3 = document.getElementById('someButton3');
+
+someDiv3.addEventListener('click', (e) => {
+    console.log('div was clicked');
+});
+
+/* --- stopPropagation() --- */
+// This will literally stop the capturing or bubbling events
+someButton3.addEventListener('click', (e) => {
+    e.stopPropagation();
+    console.log('button was clicked');
+});
+
+/* --- Event Delegation --- */
+// Bubbling also allows us to take advantage of event delegation
+// You can set the event listener on their parent and have events that happen on them bubble up to their parent
+// rather than having to set the event listener on every child individually.
+const ul = document.querySelector('ul');
+
+ul.addEventListener('click', (e) => {
+    if (e.target.closest('li') !== null)
+        e.target.closest('li').classList.toggle('highlight');
+});
